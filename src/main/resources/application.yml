@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      host: mongodb
+      port: 27017
+      database: weather_cache
+
+openmeteo:
+  url: https://api.open-meteo.com/v1/forecast
+
+cache:
+  expiry-minutes: 1
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: weather_cache_test
+
+openmeteo:
+  url: https://api.open-meteo.com/v1/forecast
+
+cache:
+  expiry-minutes: 1
